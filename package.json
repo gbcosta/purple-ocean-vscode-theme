@@ -3,8 +3,13 @@
   "displayName": "Purple Ocean",
   "description": "",
   "version": "0.0.1",
+  "publisher": "gbcostasant",
   "engines": {
     "vscode": "^1.79.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbcosta/purple-ocean-vscode-theme"
   },
   "categories": [
     "Themes"

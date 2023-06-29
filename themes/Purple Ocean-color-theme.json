@@ -116,7 +116,7 @@
       "name": "Text",
       "scope": "variable.parameter.function",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#f55050"
       }
     },
     {
@@ -214,13 +214,6 @@
       }
     },
     {
-      "name": "java source",
-      "scope": "source.java",
-      "settings": {
-        "foreground": "#fb5858"
-      }
-    },
-    {
       "name": "java modifier.import",
       "scope": "punctuation.section.block.begin.java,punctuation.section.block.end.java,punctuation.definition.method-parameters.begin.java,punctuation.definition.method-parameters.end.java,meta.method.identifier.java,punctuation.section.method.begin.java,punctuation.section.method.end.java,punctuation.terminator.java,punctuation.section.class.begin.java,punctuation.section.class.end.java,punctuation.section.inner-class.begin.java,punctuation.section.inner-class.end.java,meta.method-call.java,punctuation.section.class.begin.bracket.curly.java,punctuation.section.class.end.bracket.curly.java,punctuation.section.method.begin.bracket.curly.java,punctuation.section.method.end.bracket.curly.java,punctuation.separator.period.java,punctuation.bracket.angle.java,punctuation.definition.annotation.java,meta.method.body.java",
       "settings": {
@@ -259,21 +252,21 @@
       "name": "operator logical",
       "scope": "keyword.operator.logical",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#c678dd"
       }
     },
     {
       "name": "operator bitwise",
       "scope": "keyword.operator.bitwise",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#c678dd"
       }
     },
     {
       "name": "operator channel",
       "scope": "keyword.operator.channel",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -336,7 +329,7 @@
       "name": "js variable readwrite",
       "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
       "settings": {
-        "foreground": "#fb5858"
+        "foreground": "#d3d3d3"
       }
     },
     {
@@ -384,7 +377,7 @@
       "name": "keyword.operator.misc.rust",
       "scope": "keyword.operator.misc.rust",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -419,7 +412,7 @@
       "name": "keyword.operator",
       "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -510,7 +503,7 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -524,7 +517,7 @@
       "name": "Compound Assignment Operators js/ts",
       "scope": "keyword.operator.assignment.compound.js,keyword.operator.assignment.compound.ts",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -552,7 +545,7 @@
       "name": "Variables",
       "scope": "variable.c",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#fb5858"
       }
     },
     {
@@ -659,7 +652,7 @@
       "name": "Control Elements",
       "scope": "control.elements, keyword.operator.less",
       "settings": {
-        "foreground": "#72cb74"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -701,7 +694,7 @@
       "name": "Support",
       "scope": "support.function",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#6cd0ee"
       }
     },
     {
@@ -709,6 +702,13 @@
       "scope": "support.type.property-name",
       "settings": {
         "foreground": "#d3d3d3"
+      }
+    },
+    {
+      "name": "Support type",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#6cd0ee"
       }
     },
     {
@@ -754,24 +754,10 @@
       }
     },
     {
-      "name": "Integers",
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#72cb74"
-      }
-    },
-    {
       "name": "Constants",
       "scope": "constant",
       "settings": {
-        "foreground": "#72cb74"
-      }
-    },
-    {
-      "name": "Constants",
-      "scope": "punctuation.definition.constant",
-      "settings": {
-        "foreground": "#72cb74"
+        "foreground": "#f56f9c"
       }
     },
     {
@@ -801,7 +787,7 @@
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#72cb74"
+        "foreground": "#6eff71"
       }
     },
     {
@@ -1162,7 +1148,7 @@
       "name": "php logical/bitwise operator",
       "scope": "keyword.operator.logical.php,keyword.operator.bitwise.php,keyword.operator.arithmetic.php",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -1176,7 +1162,7 @@
       "name": "php comparison",
       "scope": "keyword.operator.comparison.php",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -1218,7 +1204,7 @@
       "name": "parameter function ruby cs",
       "scope": "function.parameter.ruby, function.parameter.cs",
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#f55050"
       }
     },
     {
@@ -1278,10 +1264,10 @@
       }
     },
     {
-      "name": "cs local variable",
-      "scope": "entity.name.variable.local.cs",
+      "name": "local variable",
+      "scope": "entity.name.variable.local",
       "settings": {
-        "foreground": "#fb5858"
+        "foreground": "#d3d3d3"
       }
     },
     {
@@ -1355,8 +1341,8 @@
       }
     },
     {
-      "name": "js func parameter",
-      "scope": ["variable.parameter.function.js"],
+      "name": "func parameter",
+      "scope": ["variable.parameter.function"],
       "settings": {
         "foreground": "#fb5858"
       }
@@ -1393,14 +1379,14 @@
       "name": "js operator.assignment",
       "scope": ["keyword.operator.assignment"],
       "settings": {
-        "foreground": "#d3d3d3"
+        "foreground": "#c678dd"
       }
     },
     {
       "name": "go operator",
       "scope": ["keyword.operator.assignment.go"],
       "settings": {
-        "foreground": "#6cd0ee"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -1651,7 +1637,7 @@
       "name": "language operators like '+', '-' etc",
       "scope": ["constant.other.color.rgb-value.xi"],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -1840,8 +1826,8 @@
     "editor.hoverHighlightBackground": "#264f7840",
     "editor.wordHighlightStrongBackground": "#004972b8",
     "editor.wordHighlightBackground": "#575757b8",
-    "editor.lineHighlightBackground": "#ffffff0A",
-    "editor.lineHighlightBorder": "#282828",
+    "editor.lineHighlightBackground": "#3a3a688d",
+    "editor.lineHighlightBorder": "#ffffff00",
     "editorLineNumber.activeForeground": "#3a3a688d",
     "editorLink.activeForeground": "#4e94ce",
     "editorIndentGuide.background": "#404040",
