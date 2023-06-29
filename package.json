@@ -2,7 +2,7 @@
   "name": "purple-ocean",
   "displayName": "Purple Ocean",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "publisher": "gbcostasant",
   "engines": {
     "vscode": "^1.79.0"
@@ -14,6 +14,7 @@
   "categories": [
     "Themes"
   ],
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
