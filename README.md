@@ -6,6 +6,7 @@
 
 - [Github](https://github.com/gbcosta)
 - [Linkedin](https://www.linkedin.com/in/gbcostasantos/)
+- [Ocean Purple Site](https://purpleocean.netlify.app/)
 
 ## Liscence
 
